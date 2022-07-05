@@ -1,0 +1,25 @@
+public class Swapper {
+    private int x;
+    private int y;
+    
+    int getX(){
+        return this.y;
+    }
+    int getY(){
+        return this.y;
+    }
+    void setX(int xis){
+        this.x = xis;
+    }
+    void setY(int ypisilion){
+        this.y =ypisilion;
+    }
+    void swap(){
+        int aux = this.x;
+        this.x = this.y;
+        this.y = aux;
+    }
+    public String toString(){
+        return "x - " + this.x + " | y - " + this.y;
+    }
+}
