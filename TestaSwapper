@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class TesteSwapper{
+    
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
+        Swapper teste = new Swapper();
+        
+        System.out.println("Qual o valor de X ? ");
+        teste.setX(input.nextInt());
+        
+        System.out.println("Qual o valor de Y ? ");
+        teste.setY(input.nextInt());
+        
+        teste.swap();
+        
+        System.out.println(teste);
+    }
+}
